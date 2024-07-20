@@ -1,0 +1,30 @@
+.plant-card{
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+}
+
+.plant-title{
+    font-size: 20px;
+}
+
+.plant-card-img{
+    height: 70px;
+    width: 100px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.plant-card-action-btn{
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 3px 20px;
+    margin: 0 20px;
+    text-decoration: none;
+}
